@@ -21,9 +21,16 @@ public class Mahasiswa {
 		this.nrp = nrp;
 	}
 
-	public static void main(String[] args) {
+	@Override
+	public String toString() {
 		// TODO Auto-generated method stub
-
+		return super.toString();
+	}
+	
+	public static void main(String[] args) {
+		Mahasiswa mahasiswa = new Mahasiswa();
+		mahasiswa.setNrp("098000012");
+		mahasiswa.setNama("XXXx");
 	}
 
 }
